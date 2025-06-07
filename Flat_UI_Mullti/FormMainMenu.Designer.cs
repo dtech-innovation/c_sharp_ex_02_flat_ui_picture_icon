@@ -64,7 +64,7 @@
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(220, 655);
+            panelMenu.Size = new Size(220, 710);
             panelMenu.TabIndex = 0;
             // 
             // btn_Settings
@@ -218,7 +218,7 @@
             panelTitleBar.Dock = DockStyle.Top;
             panelTitleBar.Location = new Point(220, 0);
             panelTitleBar.Name = "panelTitleBar";
-            panelTitleBar.Size = new Size(928, 90);
+            panelTitleBar.Size = new Size(1036, 90);
             panelTitleBar.TabIndex = 1;
             // 
             // btnClose
@@ -227,9 +227,9 @@
             btnClose.FlatAppearance.BorderSize = 0;
             btnClose.FlatStyle = FlatStyle.Flat;
             btnClose.Image = (Image)resources.GetObject("btnClose.Image");
-            btnClose.Location = new Point(882, 12);
+            btnClose.Location = new Point(1000, 12);
             btnClose.Name = "btnClose";
-            btnClose.Size = new Size(34, 34);
+            btnClose.Size = new Size(24, 24);
             btnClose.TabIndex = 4;
             btnClose.UseVisualStyleBackColor = true;
             btnClose.Click += btnClose_Click;
@@ -240,9 +240,9 @@
             btnMaximize.FlatAppearance.BorderSize = 0;
             btnMaximize.FlatStyle = FlatStyle.Flat;
             btnMaximize.Image = (Image)resources.GetObject("btnMaximize.Image");
-            btnMaximize.Location = new Point(842, 12);
+            btnMaximize.Location = new Point(970, 12);
             btnMaximize.Name = "btnMaximize";
-            btnMaximize.Size = new Size(34, 34);
+            btnMaximize.Size = new Size(24, 24);
             btnMaximize.TabIndex = 3;
             btnMaximize.UseVisualStyleBackColor = true;
             btnMaximize.Click += btnMaximize_Click;
@@ -253,9 +253,9 @@
             btnMinimize.FlatAppearance.BorderSize = 0;
             btnMinimize.FlatStyle = FlatStyle.Flat;
             btnMinimize.Image = (Image)resources.GetObject("btnMinimize.Image");
-            btnMinimize.Location = new Point(802, 12);
+            btnMinimize.Location = new Point(940, 12);
             btnMinimize.Name = "btnMinimize";
-            btnMinimize.Size = new Size(34, 34);
+            btnMinimize.Size = new Size(24, 24);
             btnMinimize.TabIndex = 2;
             btnMinimize.UseVisualStyleBackColor = true;
             btnMinimize.Click += btnMinimize_Click;
@@ -279,7 +279,7 @@
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("AngsanaUPC", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTitle.ForeColor = Color.White;
-            lblTitle.Location = new Point(375, 26);
+            lblTitle.Location = new Point(429, 26);
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new Size(86, 46);
             lblTitle.TabIndex = 0;
@@ -290,18 +290,19 @@
             panelDesktopPane.Dock = DockStyle.Fill;
             panelDesktopPane.Location = new Point(220, 90);
             panelDesktopPane.Name = "panelDesktopPane";
-            panelDesktopPane.Size = new Size(928, 565);
+            panelDesktopPane.Size = new Size(1036, 620);
             panelDesktopPane.TabIndex = 2;
             // 
             // FormMainMenu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1148, 655);
+            ClientSize = new Size(1256, 710);
             Controls.Add(panelDesktopPane);
             Controls.Add(panelTitleBar);
             Controls.Add(panelMenu);
             Name = "FormMainMenu";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             panelMenu.ResumeLayout(false);
             panelLogo.ResumeLayout(false);
